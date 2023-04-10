@@ -1,0 +1,15 @@
+.contacto-title{
+	font-size: $xxx-large;
+	text-align: center;
+	font-weight: bold;
+	margin: 80px 0;
+	color: $black_fondo;
+	@include mobile {
+	  font-size: $large;
+	  
+	}
+}
+
+.fondo-color{
+	background-color: rgb(240,240,240);
+}

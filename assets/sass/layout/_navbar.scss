@@ -1,0 +1,41 @@
+.navbar-bg {
+	background: $black_fondo;
+	color: $white;
+
+
+}
+
+.nav-link {
+	color: $white;
+
+	&:hover {
+		color: $color_hover;
+		transform: scale(1.5);
+
+		@include mobile {
+			transform: none;
+		}
+
+		@include tablet {
+			color: $color_hover;
+			transform: scale(1.5);
+		}
+
+	}
+
+
+}
+
+.nav-item {
+	margin-left: 20px;
+}
+
+.navbar-btn {
+	@include mobile {
+		border: 1 solid $white;
+	}
+}
+
+.navbar-toggler-icon {
+	@include mobile {}
+}

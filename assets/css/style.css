@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
+.logo {
+  width: 5vw;
+  height: auto;
+  margin-right: 30px;
+  animation-duration: 5s;
+  animation-name: animacionLogo;
+  animation-iteration-count: infinite;
+}
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 20vw;
+  }
+}
+
+@keyframes animacionLogo {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotateY(180deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotateY(360deg);
+  }
+}
+body {
+  background: black;
+}
+
+.btn {
+  background: rgb(0, 140, 255);
+  color: #fff;
+  margin-left: 15px;
+}
+.btn:hover {
+  background: #0e91c5;
+  color: #fff;
+  transform: scale(1.2);
+}
+
+.navbar-bg {
+  background: black;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #0e91c5;
+  transform: scale(1.5);
+}
+@media screen and (max-width: 576px) {
+  .nav-link:hover {
+    transform: none;
+  }
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-btn {
+    border: 1 solid #fff;
+  }
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 30px 60px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.producto__title {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin: 80px 0;
+  color: black;
+}
+@media screen and (max-width: 576px) {
+  .producto__title {
+    font-size: 20px;
+    margin: 40px 0;
+  }
+}
+
+.producto:hover {
+  background-color: rgb(189, 207, 243);
+  cursor: pointer;
+  transform: scale(1.2);
+}
+@media screen and (max-width: 576px) {
+  .producto:hover {
+    background-color: none;
+    transform: none;
+  }
+}
+
+.card {
+  width: 90%;
+  margin: auto;
+  background: black;
+  color: #fff;
+}
+
+.price {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+}
+
+.carousel-item {
+  background-color: rgba(0, 0, 0, 0.41);
+  margin-bottom: 30px;
+}
+
+.producto_contanier {
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+
+.producto__title2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+}
+@media screen and (max-width: 576px) {
+  .producto__title2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sidebar {
+    text-align: center;
+  }
+}
+
+.contacto-title {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin: 80px 0;
+  color: black;
+}
+@media screen and (max-width: 576px) {
+  .contacto-title {
+    font-size: 20px;
+  }
+}
+
+#carouselExampleCaptions {
+  margin-top: 94px;
+}
+
+.carousel-img {
+  height: 60vh;
+}
+
+.quienessomos {
+  margin-top: 120px;
+}
+
+.quienessomos-text {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+
+.s-video {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: rgb(119, 18, 18);
+}
+@media screen and (max-width: 576px) {
+  .s-video {
+    width: 60%;
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+.p-video {
+  font-family: "Poppins", sans-serif;
+  font-family: 35px;
+  font-weight: 500;
+}
+@media screen and (max-width: 576px) {
+  .p-video {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+}
+
+.video {
+  background: rgb(189, 207, 243);
+  padding: 100px 0;
+}
+
+.video-video {
+  width: 30vw;
+  height: 30vh;
+}
+@media screen and (max-width: 576px) {
+  .video-video {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container1 {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

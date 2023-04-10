@@ -1,0 +1,12 @@
+.btn{
+	background:$color_button;
+	color: $white;
+	
+	
+
+&:hover{
+	background: $color_hover;
+	color: $white;
+	transform: scale(1.2);
+}
+}

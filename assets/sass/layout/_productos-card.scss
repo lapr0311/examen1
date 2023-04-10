@@ -1,0 +1,72 @@
+.producto__title {
+  font-size: $xxx-large;
+  text-align: center;
+  font-weight: bold;
+  margin: 80px 0;
+  padding-top: 30px;
+  color: $black_fondo;
+  @include mobile {
+    font-size: $large;
+    margin: 40px 0;
+  }
+}
+
+.producto:hover {
+  
+  background-color: $w_fondo2;
+  cursor: pointer;
+  transform: scale(1.2);
+  @include mobile {
+    background-color: none;
+    transform: none;
+  }
+}
+.card {
+  width: 90%;
+  margin: auto;
+  background: rgb(240,240,240);
+  color: $black_fondo;
+  
+}
+.price {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+}
+
+.carousel-item{
+background-color: rgba(0, 0, 0, 0.41);
+margin-bottom: 30px;
+
+}
+
+.producto_contanier{
+  margin-top: 130px;
+margin-bottom: 60px;
+
+}
+
+.producto__title2 {
+  font-size: $xxx-large;
+  text-align: center;
+  font-weight: bold;
+  font-family: $ubuntu;
+  color: $white;
+  @include mobile {
+    font-size: $large;
+  }
+}
+.sidebar{
+  @include mobile {
+  text-align: center;
+  }
+}
+
+.botton{
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.imagen{
+  height: 50%;
+}
