@@ -190,8 +190,14 @@ body {
 .quienessomos {
   margin-top: 120px;
 }
-
-.quienessomos-text {
+.quienessomos .histori-imagen {
+  width: 90%;
+  margin-top: 6px;
+}
+.quienessomos .producto__title2 {
+  color: #fff;
+}
+.quienessomos .quienessomos-text {
   width: 80%;
   margin: auto;
   text-align: justify;
